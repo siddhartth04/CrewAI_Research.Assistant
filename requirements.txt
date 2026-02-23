@@ -1,0 +1,42 @@
+ # ============================================
+# CORE FRAMEWORKS
+# ============================================
+crewai==0.5.0
+langchain==0.1.0
+langchain-community==0.0.10
+
+# ============================================
+# PYDANTIC ECOSYSTEM
+# ============================================
+pydantic==2.5.3
+pydantic-core==2.14.6
+pydantic-settings==2.1.0
+typing-extensions==4.8.0
+annotated-types==0.6.0
+
+# ============================================
+# HUGGING FACE & TRANSFORMERS
+# ============================================
+transformers==4.36.0
+tokenizers==0.15.0
+huggingface-hub==0.20.3
+accelerate==0.25.0
+torch==2.1.0
+sentence-transformers==2.2.2
+
+# ============================================
+# SEARCH TOOLS
+# ============================================
+duckduckgo-search==4.0.0
+arxiv==2.0.0
+pypdf==3.17.0
+beautifulsoup4==4.12.3
+
+# ============================================
+# STREAMLIT DASHBOARD
+# ============================================
+streamlit==1.28.2
+python-dotenv==1.0.0
+click==8.1.7
+pillow==10.1.0
+blinker
