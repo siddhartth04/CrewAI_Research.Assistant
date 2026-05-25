@@ -3,7 +3,7 @@ from crewai import Agent
 from src.models.hf_models import HuggingFaceModel
 
 class ContentSynthesizer:
-    """REAL Content Writer that actually synthesizes information into coherent content"""
+    """ Content Writer that actually synthesizes information into coherent content"""
     
     @staticmethod
     def create(llm=None, verbose=True):
