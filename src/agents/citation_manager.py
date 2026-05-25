@@ -1,13 +1,14 @@
-# src/agents/citation_manager.py - 100% REAL
+# src/agents/citation_manager.py - 
+
 from crewai import Agent
 from src.models.hf_models import HuggingFaceModel
 
 class CitationManager:
-    """REAL Citation Manager that actually formats references correctly"""
+    """ Citation Manager that actually formats references correctly"""
     
     @staticmethod
     def create(llm=None, verbose=True):
-        """Create a REAL citation management agent"""
+        """Create a Citation management agent"""
         
         if llm is None:
             llm = HuggingFaceModel.get_llm("gpt2")
